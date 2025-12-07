@@ -11,17 +11,24 @@ interface Project {
 const featuredProjects: Project[] = [
   {
     id: 1,
-    title: "Task Management App",
-    description: "A comprehensive task management application built with React and Firebase. Features include real-time updates, drag-and-drop task organization, and team collaboration tools.",
-    link: "#",
+    title: "Crypto Dashboard",
+    description: "A premium, real-time cryptocurrency dashboard built with React and FastAPI. Features live price tracking, interactive charts, and a modern glassmorphism UI.",
+    link: "https://github.com/Kausal-dev/crypto-dashboard",
     image: "/projects/project-1.png",
   },
   {
     id: 2,
     title: "Weather Dashboard",
     description: "A dynamic weather dashboard that displays real-time weather data and forecasts. Built using the OpenWeatherMap API and Chart.js for data visualization.",
-    link: "#",
+    link: "https://github.com/Kausal-dev/weather-dashboard",
     image: "/projects/project-2.png",
+  },
+  {
+    id: 3,
+    title: "CityTimeCompare",
+    description: "A modern web tool to instantly compare live time differences, weather, and distance between any two cities worldwide.",
+    link: "https://github.com/Kausal-dev/CityTimeCompare",
+    image: "/projects/project-3.png",
   },
 ];
 
